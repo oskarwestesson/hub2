@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class whileLoopDemo2 {
+   public static void main(String[] args) {
+   
+   
+   String code = "christian";
+   Scanner scanner = new Scanner(System.in);
+   String guess = "0";
+ 
+   
+   
+   while(!guess.equals(code))  {
+      System.out.println("Skriv in koden");
+      guess = scanner.nextLine();
+   }
+
+   System.out.println("Välkommen in");
+
+
+   }
+}
